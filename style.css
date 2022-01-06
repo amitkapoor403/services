@@ -130,10 +130,6 @@ a {
     font-size: 22px;
 }
 
-.about-me {
-    max-width: 60%;
-}
-
 .subsection-two {
     display: flex;
     flex-direction: column;
@@ -187,11 +183,8 @@ a {
 
 footer {
     background-color: #1c1d25;
-    min-height: 100px;
     color: #fff;
     text-align: center;
-    margin-top: 30px;
     padding-top: 20px;
     font-size: 15px;
-    text-decoration: khaki;
-}
+    }
