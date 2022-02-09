@@ -130,6 +130,10 @@ a {
     font-size: 22px;
 }
 
+.about-me {
+    max-width: 60%;
+}
+
 .subsection-two {
     display: flex;
     flex-direction: column;
@@ -174,7 +178,7 @@ a {
     color: blue;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     .projects {
         display: flex;
         flex-wrap: wrap;
@@ -183,10 +187,12 @@ a {
 
 footer {
     background-color: #1c1d25;
+    min-height: 100px;
     color: #fff;
     text-align: center;
-    padding-bottom:20px;
-    padding-top:20px;
-    font-size: 17px;
-    }
-
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+    text-indent: inherit;
+    text-decoration: khaki;
+}
