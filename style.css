@@ -94,7 +94,7 @@ a {
     display: none;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     .hamburger {
         display: block;
         border: 0;
